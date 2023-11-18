@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: monospace;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Heading{
+  font-size: 30px;
+}
+.Calculator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+  padding: 35px;
+  border-radius: 30px;
+  box-shadow: -19px 20px 19px 20px rgb(236 183 245 / 80%), 20px -20px 20px 20px #bcceff;
+}
+
+.Calculator input{
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid black;
+  color: black;
+}
+
+input::placeholder{
+ color: black;
+}
+
+
+.Buttons{
+
+  display: flex;
+  justify-content: space-around;
+  gap: 7%;
+}
+
+button{
+  font-size: 16px;
+  padding: 16px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.Error{
+  color: red;
+  font-size: 25px;
+}
+
+.Sucess{
+  color:green;
+  font-size: 25px;
+}
+
+.Output{
+  
+  font-size: 25px;
+}
